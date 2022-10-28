@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="http://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5 text-center fs-1">
+        <div class="row text-center">
+            <div class="circle p-5 my-5">
+                <div class="to-circle">
+                    <span class="circle-to-span" id="hour1"></span>
+                    <span class="circle-to-span" id="hour2"></span>
+                    <span class="circle-to-span" id="hour3"></span>
+                </div>
+                <div class="for-span">
+                    <span class="circle-span"></span>
+                    <span class="circle-span"></span>
+                    <span class="circle-span"></span>
+                    <span class="circle-span"></span>
+                    <span class="circle-span"></span>
+                    <span class="circle-span"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="clock d-flex flex-row justify-content-center align-items-center px-2">
+                <div class="hour mx-2" id="houres">0</div>
+                <div class="minet mx-2" id="minets">0</div>
+                <div class="second mx-2" id="seconds">0</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
